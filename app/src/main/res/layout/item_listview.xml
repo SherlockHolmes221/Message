@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_layout"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:text="联系人"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:ems="4"
+        android:singleLine="true"
+        android:textColor="#595959"
+        android:textSize="14sp"/>
+
+
+   <TextView
+       android:text="12345678910"
+       android:id="@+id/item_phone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingTop="16dp"
+       android:layout_marginLeft="3dp"
+       android:ems="6"
+       android:singleLine="true"
+       android:textColor="#595959"
+       android:textSize="14sp" />
+
+
+    <TextView
+        android:text="短信内容"
+        android:maxHeight="65dp"
+        android:id="@+id/item_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="16dp"
+        android:paddingRight="10dp"
+        android:paddingTop="16dp"
+        android:textColor="#888"
+        android:textSize="14sp"
+        android:layout_marginLeft="2dp"/>
+</LinearLayout>
